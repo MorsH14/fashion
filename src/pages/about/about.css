@@ -1,0 +1,40 @@
+.morshtext{
+    width: 600px;
+}
+.aboutParaH{
+    padding: 20px 0;
+}
+.aboutText h1{
+    padding: 10px 0;
+}
+.aboutHomeContainer{
+    margin-top: 50px;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .aboutParaH{
+        width: 350px;
+    }
+    .aboutTextImg{
+        flex-direction: column;
+    }
+    .morshtext{
+        width: 350px;
+    }
+    .i400{
+        width: 350px;
+        height: 500px;
+        padding-bottom: 10px;
+
+    }
+    .i401{
+        width: 350px;
+        height: 700px;
+    }
+    .aboutHomeContainer h2{
+        width: 350px;
+    }
+    
+}

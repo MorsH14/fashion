@@ -1,0 +1,91 @@
+.mainSigninContainer {
+    background: rgba(151, 57, 3, 0.694);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signinContainer{
+    background: beige;
+    padding: 10px;
+    width: 350px;
+    height: 80vh;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: 1px 3px 3px bisque;
+}
+.signin{
+    margin: 20px 0px;
+}
+.inputReg{
+    width: 90%;
+    padding: 25px 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    margin-bottom: -20px;
+}
+.passContainer{
+    border-bottom: .5px solid black;
+}
+.inputBtnReg{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 2px solid rgba(151, 57, 3, 0.694);
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.inputBtnReg:hover{
+    background: rgba(151, 57, 3, 0.694);
+    color: white;
+    border: none;
+}
+.hrSpace{
+    margin: 10px 0px;
+}
+.hrLine{
+    width: 50px;
+    height: 2px;
+    background: #ccc;
+}
+.iconSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.SignUpIn{
+    font-size: 15px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.SignUpIn span{
+    color: black;
+    transition: .3s ease-in-out;
+}
+.SignUpIn span:hover{
+    color: rgba(151, 57, 3, 0.694);
+}
+
+.passContainer{
+    position: relative;
+}
+
+.eyeLogo{
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    cursor: pointer;
+}

@@ -1,0 +1,173 @@
+.navContainer{
+    width: 100%;
+    height: 60px;
+    border-bottom: .5px solid gray;
+    background: white;
+    z-index: 96525327235;
+    position: fixed;
+    top: 0;
+    padding-left: 100px;
+}
+ul{
+    gap: 70px;
+}
+
+nav li{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    border-bottom: .5px solid transparent;
+    transition: all .2s linear;
+    padding:  10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav li:hover{
+    border: none;
+    background: brown;
+    color: white;
+}
+
+.cartContainer{
+    position: relative;
+}
+.cartContainer:hover{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: brown;
+    cursor: pointer;
+}
+.cartAdder{
+    position: absolute;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -5px;
+    left: 18px;
+}
+.navlinkTag{
+    text-decoration: none;
+    color: black;
+}
+.wearShowContainer{
+    position: relative;
+    width: 100px;
+}
+.wearShow{
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    background: brown;
+    width: 100%;
+    height: 150px;
+    color: white;
+    padding-left: 10px;
+    transform: scale(0);
+    transition: all .3s linear;
+    z-index: 935256;
+}
+
+.menuNavContainer{
+    position: absolute;
+    right: 15px;
+    display: none;
+}
+.wearShowContainer:hover .wearShow{
+    transform: scale(1);
+}
+.wearShow li:hover{
+    border-bottom: .5px solid white;
+    margin-right: 10px;
+}
+
+
+.regLoginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.regLoginContainer button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regLoginContainer button:hover{
+    background: gray;
+    color: white;
+}
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    
+    .navContainer{
+        padding-left: 0px;
+    }
+    
+    .navLinkContainer{
+        position: absolute;
+        display: grid;
+        background: brown;
+        top: 45px;
+        left: 0%;
+        width: 100%;
+        gap: 20px;
+        transform: translateX(-300%);
+        transition: all .3s linear;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .showNav{
+        position: absolute;
+        display: grid;
+        background: brown;
+        top: 45px;
+        left: 0%;
+        width: 100%;
+        gap: 20px;
+        transform: translateX(0%);
+        transition: all .3s linear;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+  
+
+    .menuNavContainer{
+        display: block;
+    }
+    .menuNavContainer:hover{
+        transform: scale(0.9);
+    }
+
+    .cartContainer{
+        margin-right: 10px;
+    }
+    .regLoginContainer button{
+        width: 100px;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+
+}

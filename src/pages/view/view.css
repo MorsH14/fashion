@@ -1,0 +1,33 @@
+.viewContainer{
+    min-height: 100vh;
+    background: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.MainViewContainer{
+    width: 80%;
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+}
+
+.viewContainer{
+    background: bisque;
+}
+.leftView{
+    background-image: url(/public/assets/s1\ \(13\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rightView{
+    background: burlywood;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}

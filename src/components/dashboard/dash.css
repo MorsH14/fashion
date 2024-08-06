@@ -1,0 +1,9 @@
+.dashMainContainer{
+    min-height: 100vh;
+    background: bisque;
+}
+.dashH1{
+    background: brown;
+    color: white;
+    height: 70px;
+}

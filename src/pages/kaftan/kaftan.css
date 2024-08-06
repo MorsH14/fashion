@@ -1,0 +1,10 @@
+.wearContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.suitMainContainer{
+    width: 400px;
+}

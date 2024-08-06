@@ -1,0 +1,58 @@
+.footerContainer{
+    background: beige;
+    padding: 20px 10px;
+}
+.footerContent{
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footerContainer p{
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footerContainer p:hover{
+    color: brown;
+}
+.contactContainer{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.reservedContainer{
+    font-size: 12px;
+    gap: 10px;
+    padding: 20px;
+}
+.reservedContainer p:hover{
+    color: black;
+}
+.homeAddress{
+    width: 250px;
+}
+.hrLine{
+    width: 40%;
+    height: 1px;
+    background: black;
+}
+.contactLogo{
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    
+    .footerContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .none{
+        display: none;
+    }
+}

@@ -1,0 +1,289 @@
+.welcomeContainer {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.welcomeText {
+    background-image: url(/public/assets/fp.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.welcomeText h1 {
+    color: beige;
+    text-transform: uppercase;
+    font-size: 75px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.welcomeText h2 {
+    color: rgb(105, 105, 89);
+    text-transform: uppercase;
+    font-size: 75px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: flex-end;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+
+.welcomeText p {
+    color: rgb(93, 74, 51);
+    text-transform: uppercase;
+    font-size: 14px;
+    align-items: flex-end;
+    margin-left: 650px;
+    margin-top: 10px;
+}
+
+/* .welcomeText h1::before{
+    content: attr(data-set);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    text-transform: uppercase;
+    color: brown;
+    animation:  animate 5s linear infinite;
+    animation-direction: alternate;
+    border-right: .5px solid white;
+}
+
+@keyframes animate{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 102%;
+    }
+} */
+.aboutHomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.aboutParaH {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.aboutPara {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -100px;
+}
+
+.aboutText {
+    font-size: 30px;
+}
+
+.aboutAngle {
+    background: burlywood;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    transition: all .3s linear;
+}
+
+.aboutAngle:hover {
+    transform: translateX(10px);
+    box-shadow: 5px 5px 5px rgba(31, 29, 29, 0.5);
+}
+
+.suitContainer {
+    position: relative;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+
+.suitMainContainer {
+    background: url(/public/assets/b1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.suitMainContainer:hover {
+    height: 500px;
+    width: 350px;
+    margin: 20px 10px;
+}
+
+.moreIcon {
+    color: brown;
+    cursor: pointer;
+    font-weight: lighter;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.moreIcon:hover {
+    background: beige;
+    color: burlywood;
+}
+
+.hoverContent {
+    background: rgba(255, 255, 255, 0.329);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    color: beige;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    height: 500px;
+    width: 350px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: all .3s linear;
+}
+
+.hoverContent h2 {
+    text-decoration: underline;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+}
+
+.suitFlexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    flex-wrap: wrap;
+}
+
+.homeMainFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.homeFlexContainer {
+    height: 90vh;
+    width: 80%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 50px 0px;
+}
+
+.leftFlex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.rightFlex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.rightFlex p {
+    width: 500px;
+}
+
+.hoverText {
+    width: 250px;
+}
+
+.appointment {
+    padding: 20px;
+}
+
+.appointment button {
+    padding: 20px 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.appointment button:hover {
+    background: brown;
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .welcomeText h1 {
+        font-size: 22px;
+    }
+
+    .welcomeText h2 {
+        font-size: 25px;
+        align-items: flex-end;
+        margin-left: 120px;
+        margin-top: 10px;
+        color: rgb(221, 111, 56);
+    }
+
+    .welcomeText p {
+        font-size: 10px;
+        margin-left: 70px;
+        margin-top: 10px;
+        color: white;
+    }
+    .welcomeText{
+        height: 350px;
+    }
+
+    .aboutPara {
+        font-size: 20px;
+    }
+    .imgCnt{
+        width: 200px;
+        padding-bottom: 40px;
+    }
+
+    .homeFlexContainer{
+        flex-direction: column;
+    }
+    .homeFlexContainer{
+        display: flex;
+    }
+    .rightFlex p{
+        width: 100%;
+    }
+
+}
