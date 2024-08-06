@@ -107,3 +107,11 @@ code {
 .c-pointer{
   cursor: pointer;
 }
+.link{
+  text-decoration: none;
+  color: black;
+}
+.linkW{
+  text-decoration: none;
+  color: white;
+}

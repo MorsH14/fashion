@@ -120,26 +120,11 @@ nav li:hover{
     .navContainer{
         padding-left: 0px;
     }
-    
-    .navLinkContainer{
-        position: absolute;
-        display: grid;
-        background: brown;
-        top: 45px;
-        left: 0%;
-        width: 100%;
-        gap: 20px;
-        transform: translateX(-300%);
-        transition: all .3s linear;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-direction: column;
-    }
     .showNav{
         position: absolute;
         display: grid;
         background: brown;
+        color: white;
         top: 45px;
         left: 0%;
         width: 100%;
@@ -150,7 +135,29 @@ nav li:hover{
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
+        padding: 20px;
     }
+    .navlinkTag{
+        color: white;
+        width: 100%;
+    }
+
+    .navLinkContainer{
+        position: absolute;
+        display: grid;
+        background: brown;
+        top: 50px;
+        left: 0%;
+        width: 100%;
+        gap: 20px;
+        transform: translateX(-300%);
+        transition: all .3s linear;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
   
 
     .menuNavContainer{
@@ -164,10 +171,9 @@ nav li:hover{
         margin-right: 10px;
     }
     .regLoginContainer button{
-        width: 100px;
+        width: 100px; 
         font-size: 12px;
         margin-right: 20px;
     }
-
 
 }

@@ -13,14 +13,14 @@ const Suit = () => {
 
         {
             id: 1,
-            img: './assets/s1 (16).jpeg',
+            img: './assets/s1 (8).jpeg',
             title: '3 pieces suit',
             price: '#200,000',
             description: 'This a classic 3pieces suit which is made with a wool material, very rare in the market and its also going out for a free rate too'
         },
         {
             id: 2,
-            img: './assets/s1 (16).jpeg',
+            img: './assets/s1 (13).jpeg',
             title: '3 pieces suit',
             price: '#200,000',
             description: 'This a classic 3pieces suit which is made with a wool material, very rare in the market and its also going out for a free rate too'
@@ -35,15 +35,15 @@ const Suit = () => {
         
         {
             id: 4,
-            img: './assets/s1 (16).jpeg',
+            img: './assets/s1 (3).jpeg',
             title: '3 pieces suit',
             price: '#200,000',
-            description: 'This a classic 3pieces suit which is made with a wool material, very rare in the market and its also going out for a free rate too'
+            description: 'This a classic 3pieces suit which is made with a wool material, very rare in the market and it3s also going out for a free rate too'
         },
         
         {
             id: 5,
-            img: './assets/s1 (16).jpeg',
+            img: './assets/s1 (4).jpeg',
             title: '3 pieces suit',
             price: '#200,000',
             description: 'This a classic 3pieces suit which is made with a wool material, very rare in the market and its also going out for a free rate too'
@@ -51,7 +51,7 @@ const Suit = () => {
         
         {
             id: 6,
-            img: './assets/s1 (16).jpeg',
+            img: './assets/s1 (12).jpeg',
             title: '3 pieces suit',
             price: '#200,000',
             description: 'This a classic 3pieces suit which is made with a wool material, very rare in the market and its also going out for a free rate too'

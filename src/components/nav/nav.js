@@ -36,24 +36,24 @@ const Nav = () => {
                         <li className="wearShowContainer">Wears
 
                             <ul className="wearShow">
-                                <Link to={"/suit"} className="linkTag">
+                                <Link to={"/suit"} className="linkTag linkW">
                                     <li>Suits</li>
                                 </Link>
 
-                                <Link to={"/agbada"} className="linkTag">
+                                <Link to={"/agbada"} className="linkTag linkW">
                                     <li>Agbada</li>
                                 </Link>
 
-                                <Link to={"/kaftan"} className="linkTag">
+                                <Link to={"/kaftan"} className="linkTag linkW">
                                     <li>Kaftan</li>
                                 </Link>
                             </ul>
                         </li>
 
-                        <Link to={"/about"} className="navlinkTag">
+                        <Link to={"/about"} className="navlinkTag linkW">
                             <li>About</li>
                         </Link>
-                        <Link to={"/contact"} className="navlinkTag">
+                        <Link to={"/contact"} className="navlinkTag linkW">
                             <li>Contact Us</li>
                         </Link>
                     </ul>
@@ -67,8 +67,8 @@ const Nav = () => {
                 </div> */}
 
                 
-                <div className="regLoginContainer">
-                    <Link to={"/reg"}>
+                <div className="regLoginContainer link">
+                    <Link to={"/reg"} >
                         <button>Logout</button>
                     </Link>
 

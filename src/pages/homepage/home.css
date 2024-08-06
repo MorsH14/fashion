@@ -70,7 +70,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
 }
 
 .aboutParaH {
@@ -93,6 +92,7 @@
     font-weight: lighter;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -100px;
+    margin-bottom: 20px;
 }
 
 .aboutText {
@@ -191,7 +191,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 50px 0px;
 }
 
 .homeFlexContainer {
@@ -242,6 +241,11 @@
 .appointment button:hover {
     background: brown;
     color: white;
+}
+
+Link{
+    text-decoration: none;
+    color: black;
 }
 
 @media screen and (max-width: 1000px) {

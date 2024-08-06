@@ -51,9 +51,9 @@ const Contact = () => {
                                     <FaFacebookSquare size={30} color="blue" />
                                 </div> */}
 
-                                <div>
+                                <a href="https://www.instagram.com/morshdev">
                                     <FaInstagram size={30} color="red" />
-                                </div>
+                                </a>
                                 <a href="https://Wa.me//+2349038662876"><div>
                                     <FaWhatsapp size={25} color="green" />
                                 </div>

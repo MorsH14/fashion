@@ -28,7 +28,7 @@ const Homepage = () => {
                         <h2>Men's Collection</h2>
                     </Fade>
                     <Fade direction="right">
-                        <p>from kaftan to Pants, Suites, Senator wears, Agbada etc.</p>
+                        <p>from kaftan to Pants, Suites, Senator wears, Agbada etc. </p>
                     </Fade>
                 </div>
             </div>
@@ -203,7 +203,7 @@ const Homepage = () => {
 
             <Link to={"/Contact"}>
 
-                <div className="appointment flex-center">
+                <div className="appointment flex-center link">
                     <button>Book an appointment</button>
                 </div>
             </Link>

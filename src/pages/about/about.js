@@ -63,10 +63,10 @@ const About = () => {
 
 
                         <div>
-                            <img src="./assets/p1.jpg" alt="" className="i401" width={600} height={1000} />
+                            <img src="./assets/p1.jpg" alt="" className="imageN i401" width={600} height={1000} />
                         </div>
 
-                        <div className="">
+                        <div className="imageN">
 
                             <div>
                                 <img src="./assets/p8.jpg" alt="" className="i400" width={500} height={600} />
